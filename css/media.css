@@ -1,0 +1,250 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#audio-player {
+    margin: 0;
+	}
+	.playlist{
+	padding-left: 0;
+	}
+	.wrapper__timline {
+    height: 735px;
+    width: 100%;
+	}
+	.timeline__container {
+    transform: rotate(0);
+    margin-left: 3%;
+    margin-top: -20%;
+	}
+    .calendar__dotLine {
+    margin-top: 1%;
+    }
+    .timeline__container {
+    margin-left: 29%;
+    margin-top: -3%;
+    }
+    .hidden_li{
+        display: none;
+    }
+    .timeline li::after{
+        height:100%;   
+    }
+    .swiper-slide {
+    height: 55% !important;
+    }
+    .footer-mnu {
+    margin-top: 10%;
+    }
+    .footer__p{
+    margin-top: 5%;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.tab_item {
+    margin-left: 0%;
+	}
+	.tab_2015 span {
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+	#Listen {
+    margin-left: 0;
+	}
+	.tab_2014 span {
+    padding-left: 53px;
+    padding-right: 19px;
+ }
+ .tab_2013 span {
+    padding-left: 57px;
+    padding-right: 17px;
+	}
+	.tab_2012 span {
+    padding-left: 57px;
+    padding-right: 18px;   
+    }
+    .slick-next, .slick-prev {
+    width: 21px;
+    height: 39px;
+    }
+    .calendar__concertName {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    
+    .calendar__dotLine {
+    margin-top: 2%;
+    }
+    .contact h3 {
+    font-size: 50px;
+    }
+    .contact p {
+    font-size: 31px;
+    }
+    .footer__dot-line {
+        width: 100%;
+        margin: 6% 0;
+    }
+    .footer__form {
+    text-align: center;
+    }
+    .link__wrap{
+        text-align: center;
+        margin-top: 7%;
+    }
+}
+@media only screen and (max-width : 420px) {
+	.link__wrap{
+        margin-top: 25%;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.title{
+		margin-top: 50%;
+	}
+	h1{
+		font-size: 70px;
+	}
+	
+	#play {
+    margin: 0 5%;
+	 }
+	
+	#pause {
+    margin: 0 5% 0 10%;
+  }
+ 	hr {
+    width: 20%;
+    margin-left: 70%;
+  }
+  .timeline li::after {
+    height: 100%;
+}
+.swiper-slide {
+    height: 67% !important;
+    }
+.timeline__container {
+    margin-left: 18%;
+    }
+  
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	 hr {
+    display: none;
+  }
+  li span {
+    margin-top: 0%;
+  }
+  .swiper-slide {
+    height: 85% !important;
+    }
+    .timeline__container {
+    margin-left: 0;
+    }
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	hr {
+    width: 33%;
+  }
+  li span {
+    margin-top: -3%;
+  }
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	#play {
+    margin: 0 5%;
+  }
+  #pause {
+    margin: 0 5% 0 12%;
+	}
+	hr {
+    width: 30%;
+  }
+	li span {
+    margin-top: -5%;
+	}
+	.tab_2015 span {
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+	#Listen {
+    margin-left: 0;
+	}
+	.tab_2014 span {
+    padding-left: 53px;
+    padding-right: 19px;
+ }
+ .tab_2013 span {
+    padding-left: 57px;
+    padding-right: 17px;
+	}
+	.tab_2012 span {
+    padding-left: 57px;
+    padding-right: 18px;
+    
+}
+}
+
+ /* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+	#play {
+	    margin: 0 23%;
+	  }
+	 #pause {
+    margin: 0 22% 0 24%;
+	}
+	.tab_2015 span {
+    padding-left: 50px;
+    padding-right: 50px;
+	}
+	#Listen {
+    margin-left: 35px;
+	}
+	.tab_2014 span {
+    padding-left: 84px;
+    padding-right: 48px;
+}
+.tab_2013 span {
+    padding-left: 85px;
+    padding-right: 48px;
+}
+.tab_2012 span {
+    padding-left: 85px;
+    padding-right: 48px;
+}
+}

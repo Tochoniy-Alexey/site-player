@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ekzamen_tochoniy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" href="libs/swiper-4.3.3/dist/css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	
+<header id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a href="#" class="toggle-mnu d-lg-none"><span></span></a>
+			</div>
+			<div class="col-12 col-md-10">
+				
+				<nav class="main-mnu d-none d-lg-block">
+					<ul>
+						<li><a href="#header">home<br> <img class="img__hover1" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#about">about<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#music">music<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#tours">tours<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#contact">contact<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-12 ">
+				<nav class="hidden-mnu main-mnu d-lg-none">
+					<ul>
+						<li><a href="#header">home</a></li>
+						<li><a href="#about">about</a></li>
+						<li><a href="#music">music</a></li>
+						<li><a href="#tours">tours</a></li>
+						<li><a href="#contact">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-lg-8">
+				<div class="title">
+					<h1>we are <br><span>the band</span></h1>
+				</div>
+			</div> 
+		</div>
+	</div>
+</header>
+
+<section class="carousel" id="about">
+	 <div class="slick-carousel">
+    <div class="swiper-slide"><img src="img/bg_carousel.jpg" alt="alt"></div>
+    <div class="swiper-slide"><img src="img/bg_carousel.jpg" alt="alt"></div>
+    <div class="swiper-slide"><img src="img/bg_carousel.jpg" alt="alt"></div>
+    <div class="swiper-slide"><img src="img/bg_carousel.jpg" alt="alt"></div>
+    <div class="swiper-slide"><img src="img/bg_carousel.jpg" alt="alt"></div>
+  </div>
+</section>
+
+<section class="player" id="music">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-6">
+				<div class="player__disk">
+					<img src="img/disk.png" alt="Disk photo">
+				</div>
+			</div>
+			<div class="col-12 col-lg-6">
+				<div id="audio-player">
+					<h3>Now playing</h3>
+					<div id="audio-info">
+						<span class="artist"></span><br> <span class="title"></span>
+					</div>
+					<div id="buttons">
+						<span>
+							<button id="prev"></button>
+							<button id="play"></button>
+							<button id="pause"></button>
+							<button id="next"></button>
+						</span>
+					</div>
+					<div class="clearfix"></div>
+					<div id="tracker">
+						<div id="progressBar">
+							<span id="fill"></span>
+							<span id="progress"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row wrapper">
+			<div class="col-12 col-lg-6 order-12 order-lg-1">
+				<h3>Discography</h3>
+				<div class="tabs">
+					<span class="tab tab_2015"><p id="album_2015">Surprise Without Flaws <span>&bull;</span> 2015 <button class="Listen">Listen</button> <button class="buy">buy</button></p></span>
+					<span class="tab tab_2014"><p id="album_2014">Mists Of A Shadow <span>&bull;</span> 2014 <button class="Listen">Listen</button> <button class="buy">buy</button></p></span>
+					<span class="tab tab_2013"><p id="album_2013">Heroes Of The Sun <span>&bull;</span> 2013 <button class="Listen">Listen</button> <button class="buy">buy</button></p></span>
+					<span class="tab tab_2012"><p id="album_2012">Picure Of The Past <span>&bull;</span> 2012 <button class="Listen">Listen</button> <button class="buy">buy</button></p></span>        
+				</div>
+			</div>
+			
+			<div class="col-12 col-lg-6 order-1 order-lg-12">
+				<div class="tab_content">
+					<div class="tab_item">
+						<h4>Surprise Without Flaws</h4>
+						<ul class="playlist" class="hidden">
+							<li  song="audio/muzyka_modnogo_tantsa/00_jacob_miller_matt.mp3" artist="Surprise Without Flaws">01. Jacob_miller_matt<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/01_fergie_feat._ludacris.mp3" artist="Surprise Without Flaws">02. fergie_feat._ludacris<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/02_nelly_feat_fergie.mp3" artist="Surprise Without Flaws">03. Nelly_feat_fergie<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/03_the_weeknd.mp3" artist="Surprise Without Flaws">04. The_weeknd<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/04_wade_robson.mp3" artist="Surprise Without Flaws">05. Wade_robson<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/05_omarion_feat.mp3" artist="Surprise Without Flaws">06. Omarion_feat<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/06_styles_plus.mp3" artist="Surprise Without Flaws">07. Styles_plus<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/07_ludacris_ft._shawnna.mp3" artist="Surprise Without Flaws">08. Ludacris_ft._shawnna<hr> <span>3:20</span></li>
+							<li song="audio/muzyka_modnogo_tantsa/08_shakira_ft._timbaland.mp3" artist="Surprise Without Flaws">09. Shakira_ft._timbaland<hr> <span>3:20</span></li>
+						</ul>
+					</div>
+
+					<div class="tab_item">
+						<h4>Mists Of A Shadow</h4>
+						<ul class="playlist" class="hidden">
+							<li  song="audio/top_noyabr_2017/00_dj_slon_and_katya.mp3" artist="Mists Of A Shadow">01. dj_slon_and_katya<hr> <span id="span">3:20</span></li>
+							<li song="audio/top_noyabr_2017/01_j._balvin_and_willy.mp3" artist="Mists Of A Shadow">02. j._balvin_and_willy <hr> <span>3:20</span></li>
+							<li song="audio/top_noyabr_2017/02_dima_bilan_-_derzhi.mp3" artist="Mists Of A Shadow">03. dima_bilan_-_derzhi<hr> <span>3:20</span></li>
+							<li song="audio/top_noyabr_2017/03_eldzhey_-_rozovoe_vino.mp3" artist="Mists Of A Shadow">04. eldzhey_-_rozovoe<hr> <span>3:20</span></li>
+							<li song="audio/top_noyabr_2017/04_vremya_i_steklo_-_troll.mp3" artist="Mists Of A Shadow">05. vremya_i_steklo<hr> <span>3:20</span></li>
+							<li song="audio/top_noyabr_2017/05_miyagi_and_endshpil_-_dlbm.mp3" artist="Mists Of A Shadow">06. miyagi_and_endshpil<hr> <span>3:20</span></li>
+							<li song="audio/top_noyabr_2017/06_arilena_ara.mp3" artist="Mists Of A Shadow">07. arilena_ara<hr> <span>3:20</span></li>
+							<li song="audio/top_noyabr_2017/07_t-fest_-_uleti.mp3" artist="Mists Of A Shadow">08. t-fest_-_uleti<hr> <span>3:20</span></li>
+						</ul>
+					</div>
+					<div class="tab_item">Содержимое 3</div>
+					<div class="tab_item">Содержимое 4</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="calendar" id="tours">
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-12">
+				<h3>Tour dates</h3>
+			</div>
+			<div class="col-12">
+				<div class="wrapper__timline">
+					<div class="timeline__container">
+							<ul class="timeline out">
+								
+							</ul>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">	
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="col-12">
+								<div class="calendar__date">
+									<div class="row">
+										<div class="col-5 col-md-2">
+											<div class="date__wrapper">
+												<div class="date__number">
+													<p>12</p>
+												</div>
+												<div class="date__monthAndYear">
+													<p>DEC</p>
+													<p>2015</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 col-md-7">
+											<p class="calendar__concertName">Tap 1	//	Copenhagen, Denmark</p>
+										</div>
+										<div class="col-12 col-md-3">
+											<div class="calendar__button">
+												<button>buy ticket</button>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="calendar__dotLine"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="col-12">
+								<div class="calendar__date">
+									<div class="row">
+										<div class="col-5 col-md-2">
+											<div class="date__wrapper">
+												<div class="date__number">
+													<p>16</p>
+												</div>
+												<div class="date__monthAndYear">
+													<p>DEC</p>
+													<p>2015</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 col-md-7">
+											<p class="calendar__concertName">Columbianhalle		//	Berlin, Germany</p>
+										</div>
+										<div class="col-12 col-md-3">
+											<div class="calendar__button">
+												<button>buy ticket</button>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="calendar__dotLine"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="col-12">
+								<div class="calendar__date">
+									<div class="row">
+										<div class="col-5 col-md-2">
+											<div class="date__wrapper">
+												<div class="date__number">
+													<p>19</p>
+												</div>
+												<div class="date__monthAndYear">
+													<p>DEC</p>
+													<p>2015</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 col-md-7">
+											<p class="calendar__concertName">Torwar		//	Warsaw, Poland</p>
+										</div>
+										<div class="col-12 col-md-3">
+											<div class="calendar__button">
+												<button>buy ticket</button>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="calendar__dotLine"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="col-12">
+								<div class="calendar__date">
+									<div class="row">
+										<div class="col-5 col-md-2">
+											<div class="date__wrapper">
+												<div class="date__number">
+													<p>12</p>
+												</div>
+												<div class="date__monthAndYear">
+													<p>DEC</p>
+													<p>2015</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 col-md-7">
+											<p class="calendar__concertName">Tap 1	//	Copenhagen, Denmark</p>
+										</div>
+										<div class="col-12 col-md-3">
+											<div class="calendar__button">
+												<button>buy ticket</button>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="calendar__dotLine"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="col-12">
+								<div class="calendar__date">
+									<div class="row">
+										<div class="col-5 col-md-2">
+											<div class="date__wrapper">
+												<div class="date__number">
+													<p>12</p>
+												</div>
+												<div class="date__monthAndYear">
+													<p>DEC</p>
+													<p>2015</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-7 col-md-7">
+											<p class="calendar__concertName">Tap 1	//	Copenhagen, Denmark</p>
+										</div>
+										<div class="col-12 col-md-3">
+											<div class="calendar__button">
+												<button>buy ticket</button>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="calendar__dotLine"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						
+
+					</div>
+					<!-- Add scrollbar -->
+					<div class="swiper-scrollbar"></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+</section>
+
+<footer class="footer" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="contact">
+					<h3>contact</h3>
+					<p>+48 202 - 555 - 0114</p>
+				</div>
+				<div class="footer__dot-line"></div>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<div class="footer__form-wrap">
+					<form class="footer__form">
+						<button>subscribe</button>
+						<input type="email" name="email">
+						
+					</form>
+
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="link__wrap">
+					<a href="facebook.com" class="facebook"><img src="img/facebook.png" ></a>
+					<a href="facebook.com" class="youtube"><img src="img/youtube.png"></a>
+				</div>
+			</div>		
+		</div>	
+
+		<div class="row">
+			<div class="col-12 col-lg-6 order-12 order-lg-1">
+				<p class="footer__p">Copyright 2015 © by The Band</p>
+			</div>
+			<div class="col-12 col-lg-6 order-1 order-lg-12">
+				<nav class="main-mnu footer-mnu">
+					<ul>
+						<li><a href="#header">home<br> <img class="img__hover1" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#about">about<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#music">music<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#tours">tours<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+						<li><a href="#contact">contact<br> <img class="img__hover" src="img/Active_menu.png" alt="alt"></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		
+	</div>
+</footer>
+
+
+
+	<script src="libs/jQuery/jquery-3.3.1.min.js"></script>
+	<script src="libs/slick-1.8.1/slick/slick.min.js"></script>
+	<script src="libs/swiper-4.3.3/dist/js/swiper.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
+
